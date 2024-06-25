@@ -9,6 +9,11 @@
 
 そのため、SVG画像入力に対応するため、 `--enable-librsvg` オプションを付けてビルドした **FFmpeg** を使用する必要があります。
 
+私の環境はmacOS のため、以下の `--enable-librsvg`オプションを有効にした [Homebrew](https://brew.sh/) 用Formula を用意し、
+FFmpegをビルド・インストールしています。
+
+- [kantas-spike/homebrew-ffmpeg-with-librsvg](https://github.com/kantas-spike/homebrew-ffmpeg-with-librsvg)
+
 ## 使い方
 
 ```shell
