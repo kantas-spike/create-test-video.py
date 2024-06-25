@@ -46,7 +46,9 @@ options:
 python create-test-video.py -t ./sample_template/red_inkscape.svg -o sample_output/red.mp4 -d 3
 ```
 
-[赤背景 180フレーム](./sample_output/red.mp4)
+<video width="640"  controls>
+  <source src="https://github.com/kantas-spike/create-test-video.py/raw/main/sample_output/red.mp4" type="video/mp4">
+</video>
 
 ## テンプレートの作成方法
 
